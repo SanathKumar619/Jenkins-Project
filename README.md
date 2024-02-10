@@ -159,3 +159,5 @@ docker run -d -p 8000:8000 sanath-image
  Now just update something in the repo and your job will be triggered automatically.
 
  *That's a wrap*
+
+**Note : For any queries or issues, please open an issue in the repository.**
