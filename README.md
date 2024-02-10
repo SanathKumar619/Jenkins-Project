@@ -150,7 +150,7 @@ docker run -d -p 8000:8000 sanath-image
 ****Step 8: Webhook Configure****
  * Kill the existing container.
  * Jenkins -> Manage Jenkins -> Manage Plugins -> Install github integration plugin
- * Go to repository settings -> webhook -> Add webhook -> Payload URL add jenkins URL here -> (http://13.231.214.11:8080/github-webhook/)
+ * Go to repository settings -> webhook -> Add webhook -> Payload URL add jenkins URL here -> (http://public-ip:8080/github-webhook/)
  * Content type -> application.json
  * Add webhook.
  * Web hook added Successfully
